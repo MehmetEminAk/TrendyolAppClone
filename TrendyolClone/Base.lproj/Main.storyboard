@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Pmz-HM-44i">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Favorilerim-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TrendyolClone" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Favorilerim" image="suit.heart" catalog="system" id="vVv-op-sC3"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="986.95652173913049" y="83.705357142857139"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="D0z-ME-kXp">
+            <objects>
+                <viewController id="UoF-zo-FsO" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="PfV-r4-N3Y">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="9IJ-Rn-nw3"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MFa-vx-JbD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="987" y="769"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="50J-zK-ffO">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="Pmz-HM-44i" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="cT0-TD-O5x">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="578-5L-nMn"/>
+                        <segue destination="pAO-AE-zi7" kind="relationship" relationship="viewControllers" id="5lJ-KJ-c0K"/>
+                        <segue destination="g50-sf-aXz" kind="relationship" relationship="viewControllers" id="73H-TF-Bth"/>
+                        <segue destination="rWz-q7-SPa" kind="relationship" relationship="viewControllers" id="570-k0-lhm"/>
+                        <segue destination="caa-ON-DLr" kind="relationship" relationship="viewControllers" id="7HF-xU-hKz"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eqz-Nz-a1r" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="76.811594202898561" y="83.705357142857139"/>
+        </scene>
+        <!--Sepetim-->
+        <scene sceneID="eUM-Fi-hcB">
+            <objects>
+                <viewController id="rWz-q7-SPa" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zv3-go-NXe">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="5xw-gP-Ex7"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Sepetim" image="case" catalog="system" id="b6V-ZA-DfZ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="90Y-K8-KgD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="987" y="769"/>
+        </scene>
+        <!--Hesabım-->
+        <scene sceneID="B0h-6s-1Q1">
+            <objects>
+                <viewController id="caa-ON-DLr" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7nq-C4-FIU">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="tuE-QU-2K3"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Hesabım" image="person" catalog="system" id="28a-yv-8Bb"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JTO-gI-SA0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="987" y="1451"/>
+        </scene>
+        <!--Trendyol GO-->
+        <scene sceneID="rfC-fm-6UD">
+            <objects>
+                <viewController id="pAO-AE-zi7" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Qai-w0-LOj">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="oFB-Ph-Pco"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Trendyol GO" image="circle.hexagonpath.fill" catalog="system" id="cjX-sQ-5wA"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5bd-Aq-tYh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="987" y="-610"/>
+        </scene>
+        <!--Ana Sayfa-->
+        <scene sceneID="aeC-7X-piL">
+            <objects>
+                <viewController id="g50-sf-aXz" customClass="ViewController" customModule="TrendyolClone" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Dwx-ak-ALh">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <searchBar contentMode="redraw" placeholder="Marka,ürün veya kategori ara" translatesAutoresizingMaskIntoConstraints="NO" id="50N-nd-fdi">
+                                <rect key="frame" x="0.0" y="44" width="338" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="6Bl-9V-W5S"/>
+                                </constraints>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="g50-sf-aXz" id="goN-1P-I2G"/>
+                                </connections>
+                            </searchBar>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bell.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="6rL-0U-koE">
+                                <rect key="frame" x="348" y="44.5" width="60" height="43"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="w4h-Yq-OK5"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tfj-s1-2uO">
+                                <rect key="frame" x="7" y="446" width="414" height="666"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gap-MW-KyW">
+                                <rect key="frame" x="700" y="251" width="691" height="35"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gw3-CJ-XIZ">
+                                <rect key="frame" x="0.0" y="105" width="414" height="45"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qwI-xU-Feb">
+                                        <rect key="frame" x="0.0" y="0.0" width="1500" height="45"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fI0-5Z-s8d">
+                                                <rect key="frame" x="8" y="11" width="67" height="22"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Keşfet"/>
+                                            </button>
+                                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="gBW-to-rn2">
+                                                <rect key="frame" x="83" y="7" width="1409" height="32"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <segments>
+                                                    <segment title="Erkek"/>
+                                                    <segment title="Kadın"/>
+                                                    <segment title="Elektronik"/>
+                                                    <segment title=""/>
+                                                    <segment title=""/>
+                                                    <segment title=""/>
+                                                    <segment title=""/>
+                                                    <segment title=""/>
+                                                    <segment title="Giyim"/>
+                                                    <segment title=""/>
+                                                    <segment title=""/>
+                                                    <segment title=""/>
+                                                    <segment title="Aksesuar"/>
+                                                    <segment title=""/>
+                                                    <segment title=""/>
+                                                    <segment title=""/>
+                                                    <segment title=""/>
+                                                    <segment title="Telefon"/>
+                                                </segments>
+                                                <connections>
+                                                    <action selector="segmentedControlValueChanged:" destination="g50-sf-aXz" eventType="valueChanged" id="gMg-cb-fwl"/>
+                                                </connections>
+                                            </segmentedControl>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="1500" id="93f-4Y-LwO"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="qwI-xU-Feb" firstAttribute="top" secondItem="Gw3-CJ-XIZ" secondAttribute="top" id="6Bc-Le-5Ws"/>
+                                    <constraint firstAttribute="trailing" secondItem="qwI-xU-Feb" secondAttribute="trailing" id="Vwk-e8-wYe"/>
+                                    <constraint firstItem="qwI-xU-Feb" firstAttribute="centerY" secondItem="Gw3-CJ-XIZ" secondAttribute="centerY" id="WJP-nw-Gh6"/>
+                                    <constraint firstAttribute="bottom" secondItem="qwI-xU-Feb" secondAttribute="bottom" id="jze-2n-RWh"/>
+                                    <constraint firstItem="qwI-xU-Feb" firstAttribute="leading" secondItem="Gw3-CJ-XIZ" secondAttribute="leading" id="zxB-tR-1r7"/>
+                                </constraints>
+                            </scrollView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5pR-Zb-MdU">
+                                <rect key="frame" x="0.0" y="172" width="414" height="641"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Xyb-7a-ZgL"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Gw3-CJ-XIZ" firstAttribute="leading" secondItem="50N-nd-fdi" secondAttribute="leading" id="6gh-BA-t7i"/>
+                            <constraint firstItem="gap-MW-KyW" firstAttribute="top" secondItem="Dwx-ak-ALh" secondAttribute="top" constant="251" id="77K-15-bnp"/>
+                            <constraint firstItem="tfj-s1-2uO" firstAttribute="leading" secondItem="Xyb-7a-ZgL" secondAttribute="leading" constant="7" id="9Vj-lc-51U"/>
+                            <constraint firstItem="Gw3-CJ-XIZ" firstAttribute="centerX" secondItem="Dwx-ak-ALh" secondAttribute="centerX" id="EGT-HS-sTm"/>
+                            <constraint firstItem="6rL-0U-koE" firstAttribute="leading" secondItem="50N-nd-fdi" secondAttribute="trailing" constant="10" id="Fze-rs-Zlb"/>
+                            <constraint firstAttribute="bottom" secondItem="gap-MW-KyW" secondAttribute="bottom" constant="610" id="Hep-cG-Kj3"/>
+                            <constraint firstItem="gap-MW-KyW" firstAttribute="leading" secondItem="Xyb-7a-ZgL" secondAttribute="leading" constant="700" id="Jr7-R9-6GE"/>
+                            <constraint firstAttribute="bottom" secondItem="Gw3-CJ-XIZ" secondAttribute="bottom" constant="746" id="L1F-w7-NaZ"/>
+                            <constraint firstItem="50N-nd-fdi" firstAttribute="top" secondItem="6rL-0U-koE" secondAttribute="top" id="P32-4U-jEn"/>
+                            <constraint firstItem="tfj-s1-2uO" firstAttribute="top" secondItem="Dwx-ak-ALh" secondAttribute="top" constant="446" id="Z5P-DI-Bq9"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="tfj-s1-2uO" secondAttribute="trailing" constant="-27" id="fi9-oM-7Bp"/>
+                            <constraint firstItem="50N-nd-fdi" firstAttribute="bottom" secondItem="6rL-0U-koE" secondAttribute="bottom" id="gy6-HI-eSX"/>
+                            <constraint firstItem="50N-nd-fdi" firstAttribute="top" secondItem="Xyb-7a-ZgL" secondAttribute="top" id="iBU-9w-VD0"/>
+                            <constraint firstAttribute="trailing" secondItem="gap-MW-KyW" secondAttribute="trailing" constant="-977" id="kwd-tg-mcT"/>
+                            <constraint firstItem="50N-nd-fdi" firstAttribute="leading" secondItem="Xyb-7a-ZgL" secondAttribute="leading" id="mDS-g9-QKL"/>
+                            <constraint firstAttribute="bottom" secondItem="tfj-s1-2uO" secondAttribute="bottom" constant="-216" id="nMy-8X-Uee"/>
+                            <constraint firstItem="Gw3-CJ-XIZ" firstAttribute="top" secondItem="50N-nd-fdi" secondAttribute="bottom" constant="17" id="sV0-jP-lRz"/>
+                            <constraint firstItem="Xyb-7a-ZgL" firstAttribute="trailing" secondItem="6rL-0U-koE" secondAttribute="trailing" constant="6" id="ym7-s8-sRQ"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Ana Sayfa" image="homekit" catalog="system" id="tXq-Jb-a6S"/>
+                    <connections>
+                        <outlet property="containerView" destination="5pR-Zb-MdU" id="tiB-cX-ZCZ"/>
+                        <outlet property="searchBar" destination="50N-nd-fdi" id="Ueh-4t-IYn"/>
+                        <outlet property="segmentedControl" destination="gBW-to-rn2" id="bPE-gc-VJb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="95y-kb-DkP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="986.95652173913049" y="-1315.1785714285713"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bell.circle.fill" catalog="system" width="128" height="121"/>
+        <image name="case" catalog="system" width="128" height="100"/>
+        <image name="circle.hexagonpath.fill" catalog="system" width="128" height="112"/>
+        <image name="homekit" catalog="system" width="128" height="106"/>
+        <image name="person" catalog="system" width="128" height="117"/>
+        <image name="suit.heart" catalog="system" width="128" height="109"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
